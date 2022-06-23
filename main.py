@@ -7,9 +7,9 @@ app = Flask(__name__)
 api = Api(app)
 
 # /users
-users_path = 'C:\\Users\\PC\\Desktop\\Data\\Users.csv'
+users_path = 'Users.csv'
 # /locations
-locations_path = 'C:\\Users\\PC\\Desktop\\Data\\Locations.csv'
+locations_path = 'Locations.csv'
 
 
 class Users(Resource):
